@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --input-border-color: #dadada;
+  --input-bg-color: #fff;
+  --inputfocus-border-color: #03cf5d;
+  --inputfocus-bg-color: #e9f0fd;
+  --login-font-color: #fff;
+  --login-bg-color: #03cf5d;
+  --ip-font-color: #121212;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.warning {
+  display: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: gray;
+  width: 31.25rem;
+}
+
+.naver-logo {
+  width: 14.375rem;
+  margin: 10% auto;
+}
+
+.section-login {
+  input {
+    width: 100%;
+    font-size: 0.875rem;
+    height: 2.8125rem;
+    border: 1px solid var(--input-border-color);
+    background-color: var(--input-bg-color);
+  }
+
+  input:focus {
+    outline: none;
+    border: 1px solid var(--inputfocus-border-color);
+    background: var(--inputfocus-bg-color);
+  }
+
+  .login-button {
+    width: 100%;
+    height: 2.8125rem;
+    font-size: 1rem;
+    color: var(--login-font-color);
+    background: var(--login-bg-color);
+    margin-top: 1.25rem;
+    border: 0;
+  }
+}
+
+.section-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (width <= 48rem) {
+}
