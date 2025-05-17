@@ -1,0 +1,1069 @@
+body {
+  background-color: var(--white);
+}
+/* 아이패드 프로*/
+.ipad-pro {
+  display: block;
+  color: var(--white);
+  margin-top: var(--large-spacing);
+
+  .ipad-pro-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('../assets/apple/ipad_pro.jpeg') 1x, url('../assets/apple/ipad_pro_2x.jpeg') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--x-small-spacing);
+    }
+  }
+
+  .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--blue-400);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--blue-100);
+      border: 0.0625rem solid var(--blue-100);
+    }
+  }
+}
+
+/* 아이패드 에어 */
+.ipad-air {
+  display: block;
+  color: var(--black);
+  margin-top: var(--large-spacing);
+
+  .ipad-air-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('../assets/apple/ipad_air.jpeg') 1x, url('../assets/apple/ipad_air_2x.jpeg') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+  .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--black);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--black);
+      border: 0.0625rem solid var(--black);
+    }
+  }
+}
+
+/* 아이폰 15 프로 */
+.iphone-15-pro {
+  display: block;
+  color: var(--white);
+  margin-top: var(--large-spacing);
+
+  .iphone-15-pro-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('../assets/apple/iphone15_pro.jpeg') 1x, url('../assets/apple/iphone15_pro_2x.jpeg') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+  .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--blue-400);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--blue-100);
+      border: 0.0625rem solid var(--blue-100);
+    }
+  }
+}
+
+/* 아이폰 15 */
+.iphone-15 {
+  display: block;
+  color: var(--black);
+  margin-top: var(--large-spacing);
+
+  .iphone-15-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('../assets/apple/iphone15.jpeg') 1x, url('../assets/apple/iphone15_2x.jpeg') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+  .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--black);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--black);
+      border: 0.0625rem solid var(--black);
+    }
+  }
+}
+
+/* 워치 */
+.apple-watch {
+  display: block;
+  color: var(--white);
+  margin-top: var(--large-spacing);
+
+  .apple-watch-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('../assets/apple/apple_watch.jpeg') 1x, url('../assets/apple/apple_watch_2x.jpeg') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+  .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--blue-400);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--blue-100);
+      border: 0.0625rem solid var(--blue-100);
+    }
+  }
+}
+
+/* 맥북 에어 */
+.macbook-air {
+  display: block;
+  color: var(--black);
+  margin-top: var(--large-spacing);
+
+  .macbook-air-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('../assets/apple/macbook_air.jpeg') 1x, url('../assets/apple/macbook_air_2x.jpeg') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+  .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--black);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--black);
+      border: 0.0625rem solid var(--black);
+    }
+  }
+}
+
+/* 에어팟 프로 */
+.airpods-pro {
+  display: block;
+  color: var(--white);
+  margin-top: var(--large-spacing);
+
+  .airpods-pro-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('../assets/apple/airpods_pro.jpeg') 1x, url('../assets/apple/airpods_pro_2x.jpeg') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+  .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--blue-400);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--blue-100);
+      border: 0.0625rem solid var(--blue-100);
+    }
+  }
+}
+
+/* 1024픽셀 초과시 화면 변경 */
+.up-1024px-2x2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+/* 1024px 이상 화면 설정 */
+
+@media (min-width: 64rem) {
+  .up-1024px-2x2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.25rem;
+  }
+
+  /* 아이패드 프로 (1024이상) */
+  .ipad-pro {
+    display: block;
+    color: var(--white);
+    margin-top: var(--extra-large-spacing);
+
+    .ipad-pro-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('../assets/apple/ipad_pro.jpeg') 1x, url('../assets/apple/ipad_pro_2x.jpeg') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--blue-400);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--blue-100);
+        border: 0.0625rem solid var(--blue-100);
+      }
+    }
+  }
+
+  /* 아이패드 에어 (1024이상) */
+  .ipad-air {
+    display: block;
+    color: var(--black);
+    margin-top: var(--extra-large-spacing);
+
+    .ipad-air-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('../assets/apple/ipad_air.jpeg') 1x, url('../assets/apple/ipad_air_2x.jpeg') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--black);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--black);
+        border: 0.0625rem solid var(--black);
+      }
+    }
+  }
+
+  /* 아이폰 15 프로(1024이상 - 사진 변경) */
+  .iphone-15-pro {
+    display: block;
+    color: var(--white);
+    margin-top: var(--extra-large-spacing);
+
+    .iphone-15-pro-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('../assets/apple/iphone15_pro_wide.jpeg') 1x, url('../assets/apple/iphone15_pro_wide_2x.jpeg') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--blue-400);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--blue-100);
+        border: 0.0625rem solid var(--blue-100);
+      }
+    }
+  }
+
+  /* 아이폰 15 (1024이상) */
+  .iphone-15 {
+    display: block;
+    color: var(--black);
+    margin-top: var(--extra-large-spacing);
+
+    .iphone-15-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('../assets/apple/iphone15.jpeg') 1x, url('../assets/apple/iphone15_2x.jpeg') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--black);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--black);
+        border: 0.0625rem solid var(--black);
+      }
+    }
+  }
+
+  /* 워치 (1024이상) */
+  .apple-watch {
+    display: block;
+    color: var(--white);
+    margin-top: var(--extra-large-spacing);
+
+    .apple-watch-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('../assets/apple/apple_watch.jpeg') 1x, url('../assets/apple/apple_watch_2x.jpeg') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--blue-400);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--blue-100);
+        border: 0.0625rem solid var(--blue-100);
+      }
+    }
+  }
+
+  /* 맥북 에어 (1024이상) */
+  .macbook-air {
+    display: block;
+    color: var(--black);
+    margin-top: var(--extra-large-spacing);
+
+    .macbook-air-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('../assets/apple/macbook_air.jpeg') 1x, url('../assets/apple/macbook_air_2x.jpeg') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--black);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--black);
+        border: 0.0625rem solid var(--black);
+      }
+    }
+  }
+
+  /* 에어팟 프로 (1024이상) */
+  .airpods-pro {
+    display: block;
+    color: var(--white);
+    margin-top: var(--extra-large-spacing);
+
+    .airpods-pro-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('../assets/apple/airpods_pro.jpeg') 1x, url('../assets/apple/airpods_pro_2x.jpeg') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--blue-400);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--blue-100);
+        border: 0.0625rem solid var(--blue-100);
+      }
+    }
+  }
+}

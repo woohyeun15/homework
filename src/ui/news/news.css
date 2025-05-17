@@ -1,0 +1,31 @@
+/* 이디야 새소식(News) */
+body{
+  margin: 50px;
+  background: #000;
+  color: #fff;
+}
+
+.news{
+  margin-block: 20px;
+  background: var(--dark-blue) radial-gradient(circle at right top, rgb(48, 48, 224), rgb(17, 17, 102));
+  padding: 20px;
+  min-inline-size: 320px;
+  display: grid;
+  gap: 5px 20px;
+  grid-template-columns: minmax(190px, 1fr) max-content;
+  
+  .title{
+    margin-bottom: 10px;
+  }
+ 
+  .list, .item{
+    display: contents;
+  }
+
+  .more{
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: end;
+  }
+}
+

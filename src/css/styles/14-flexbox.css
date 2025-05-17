@@ -1,0 +1,121 @@
+/* Flex 레이아웃 */
+body{
+  margin: 50px;
+}
+
+/* 상자 별로 서로 다른 색상 지정하기 */
+div{
+
+  div:nth-child(1){
+    background: var(--yellow);
+  }
+  div:nth-child(2){
+    background: var(--coral);
+  }
+  div:nth-child(3){
+    background: var(--mint);
+  }
+  div:nth-child(4){
+    background: var(--blue);
+  }
+}
+
+
+/* flex를 활용할 경우 */
+.lion{
+  inline-size: 50%;
+  block-size: 200px;
+  margin-block: 20px;
+  box-shadow: 0 0 0 10px red;
+  display: flex;
+  flex-flow: row nowrap;
+  /* padding: 0 20px; */
+  /* justify-content: space-between; */
+  /* 메인 축 정렬 */
+  /* justify-content: space-evenly; */
+  /* 교차 축 정렬 */
+  align-items: center;
+  /* 여러 줄 정렬 (교차) */
+  /* align-content: space-around; */
+
+  .lion-item{
+    /* inline-size: 100px; */
+    block-size: 80px;
+    /* flex-basis: 150px;
+    flex-shrink: 1;
+    flex-grow: 1; */
+    flex: 1 1 0;
+  }
+
+  .lion-item:nth-child(1){
+    flex-grow: 1;
+  }
+  .lion-item:nth-child(2){
+    flex-grow: 2;
+  }
+  .lion-item:nth-child(3){
+    flex-grow: 3;
+  }
+  .lion-item:nth-child(4){
+    flex-grow: 4;
+    /* flex-shrink: 2; */
+  }
+}
+.frontend{
+  margin-block: 40px;
+  box-shadow: 0 0 0 10px gray;
+  inline-size: 500px;
+  block-size: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 20px;
+
+  .frontend-item{
+    inline-size: 100px;
+  }
+
+  .frontend-item:nth-child(1){
+    block-size: 20px;
+    font-size: 12px;
+    align-self: start;
+    order: 9999;
+  }
+
+  .frontend-item:nth-child(2){
+    block-size: 40px;
+    font-size: 20px;
+  }
+
+  .frontend-item:nth-child(3){
+    block-size: 60px;
+    font-size: 30px;
+  }
+
+  .frontend-item:nth-child(4){
+    block-size: 80px;
+    font-size: 40px;
+    order: -1;
+  }
+}
+/* float를 활용할 경우 */
+.like{
+  margin-block: 20px;
+  box-shadow: 0 0 0 10px blue;
+  display: flow-root;
+
+  .like-item{
+    float: inline-end;
+  }
+}
+
+/* Normal Flow 레이아웃 */
+.bootcamp{
+  margin-block: 20px;
+  box-shadow: 0 0 0 10px green;
+  block-size: 200px;
+  inline-size: 400px;
+  text-align: center;
+  align-content: center;
+}

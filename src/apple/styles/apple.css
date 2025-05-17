@@ -1,3 +1,317 @@
-@import "./card-component.css";
+@import './card-component.css';
 
-/* 카드 레이아웃 */
+/* 마크업 컴포넌트
+<section class="제품이름">
+      <div class="제품이름-content" role="img" aria-label="제품이름 제품 이미지와 설명">
+        <div class="text-block">
+          <h1>제품이름</h1>
+          <p class="tagline">부제목</p>
+          <p class="release-info">출시일 추후 공개</p> (필요시 삭제)
+          <div class="info-buttons">
+            <a href="#" class="btn learn-more">더 알아보기</a>
+            <a href="#" class="btn price">가격 보기</a>
+          </div>
+        </div>
+      </div>
+    </section> */
+
+/* 작은 화면 컴포넌트 (검은바탕/흰글씨)
+
+.제품 이름(흰글씨) {
+  display: block;
+  color: var(--white);
+  margin-top: var(--large-spacing);
+
+  .제품 이름(흰글씨)-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('..') 1x, url('..') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+    .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--blue-400);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--blue-100);
+      border: 0.0625rem solid var(--blue-100);
+    }
+  }
+} */
+
+/* 작은 화면 컴포넌트 (일반바탕/검은글씨)
+.제품이름(검은글씨) {
+  display: block;
+  color: var(--black);
+  margin-top: var(--large-spacing);
+
+  .제품이름(검은글씨)-content {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    inline-size: 100%;
+    block-size: var(--size);
+
+    background-image: image-set(url('..') 1x, url('..') 2x);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 2rem;
+
+    background-color: none;
+
+    h1 {
+      font-size: var(--large-text);
+      margin-block-end: var(--small-spacing);
+    }
+
+    .tagline {
+      font-size: var(--base-text);
+      line-height: var(--line-normal);
+      margin-block-end: var(--x-small-spacing);
+    }
+
+    .release-info {
+      font-size: var(--small-text);
+      color: var(--gray);
+      margin-block-end: var(--small-spacing);
+    }
+  }
+
+    .info-buttons {
+    display: block;
+    block-size: 100%;
+    align-content: center;
+
+    margin-block-start: var(--x-small-spacing);
+
+    .btn {
+      padding-block: var(--x-small-spacing);
+      padding-inline: var(--small-spacing);
+      border-radius: 9999px;
+      display: inline-block;
+
+      font-size: var(--xx-small-text);
+    }
+    .learn-more {
+      background-color: var(--black);
+      color: var(--white);
+
+      margin-right: var(--base-spacing);
+    }
+
+    .price {
+      background-color: none;
+      color: var(--black);
+      border: 0.0625rem solid var(--black);
+    }
+  }
+} */
+
+/* 큰 화면 컴포넌트 (검은바탕/흰글씨)
+.제품이름(흰글씨) {
+    display: block;
+    color: var(--white);
+    margin-top: var(--extra-large-spacing);
+
+    .제품이름(흰글씨)-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('..') 1x, url('..') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--blue-400);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--blue-100);
+        border: 0.0625rem solid var(--blue-100);
+      }
+    }
+  } */
+
+/* 큰 화면 컴포넌트 (일반바탕/검은글씨) 
+   .제품이름(검은글씨) {
+    display: block;
+    color: var(--black);
+    margin-top: var(--extra-large-spacing);
+
+    .제품이름(검은글씨)-content {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      inline-size: 100%;
+      block-size: var(--size);
+
+      background-image: image-set(url('..') 1x, url('..') 2x);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: relative;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 2rem;
+
+      background-color: none;
+
+      h1 {
+        font-size: var(--extra-large-text);
+        margin-block-end: var(--small-spacing);
+      }
+
+      .tagline {
+        font-size: var(--medium-text);
+        line-height: var(--line-normal);
+        margin-block-end: var(--x-small-spacing);
+      }
+
+      .release-info {
+        font-size: var(--small-text);
+        color: var(--gray);
+        margin-block-end: var(--x-small-spacing);
+      }
+    }
+
+    .info-buttons {
+      display: block;
+      block-size: 100%;
+      align-content: center;
+
+      margin-block-start: var(--x-small-spacing);
+
+      .btn {
+        padding-block: var(--x-small-spacing);
+        padding-inline: var(--small-spacing);
+        border-radius: 9999px;
+        display: inline-block;
+
+        font-size: var(--x-small-text);
+      }
+      .learn-more {
+        background-color: var(--black);
+        color: var(--white);
+
+        margin-right: var(--base-spacing);
+      }
+
+      .price {
+        background-color: none;
+        color: var(--black);
+        border: 0.0625rem solid var(--black);
+      }
+    }
+  }*/
